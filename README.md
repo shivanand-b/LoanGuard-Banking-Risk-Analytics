@@ -1,91 +1,56 @@
 # LoanGuard — Banking Risk & Customer Analytics
 
-LoanGuard is an end-to-end banking loan analytics project built to analyze loan applications, customer profiles, loan portfolios, approval patterns, credit risk, and business trends.
+LoanGuard is an end-to-end banking loan analytics project designed to analyze loan applications, customer profiles, loan portfolios, approval patterns, credit risk, and business trends.
 
-The project combines **Python, MySQL, Power BI, and DAX** to clean, validate, analyze, and visualize loan application data through an interactive **7-page Power BI dashboard**.
-
----
-
-## 📌 Project Overview
-
-Banks and financial institutions need to understand loan application patterns, customer financial profiles, approval behavior, credit risk, and portfolio performance.
-
-LoanGuard transforms raw loan application data into actionable business insights through data cleaning, validation, exploratory analysis, risk analysis, and interactive Power BI reporting.
-
-The final dashboard provides a centralized view of:
-
-- Loan application performance
-- Customer financial characteristics
-- Loan portfolio distribution
-- Loan approval patterns
-- Credit and risk scores
-- Interest rate trends
-- Loan application trends
-- Data quality and completeness
+The project combines **Python, MySQL, Power BI, and DAX** to clean, validate, analyze, and visualize banking loan data through an interactive 7-page Power BI dashboard.
 
 ---
 
 ## 🎯 Business Objectives
 
-The main objectives of this project are to:
-
-- Analyze overall loan application performance
+- Analyze overall loan application and approval performance
 - Understand customer income and credit profiles
-- Identify loan portfolio patterns by purpose
-- Analyze loan approval and rejection behavior
-- Examine credit score and risk score distributions
-- Study loan amount and interest rate trends
-- Analyze application trends over time
-- Validate important fields for data quality
-- Build an interactive dashboard for business decision-making
+- Analyze loan portfolio distribution by purpose
+- Identify credit and risk patterns
+- Evaluate loan approval behavior
+- Track loan application and financial trends over time
+- Validate data quality and completeness
+- Generate actionable business insights for banking decision-making
 
 ---
 
-## 🗂️ Dataset
+## 📊 Dataset
 
-The project uses a structured loan application dataset containing customer, financial, loan, employment, approval, and risk-related information.
-
-### Dataset Size
-
-- **20,000+ loan applications**
-- **40 columns after data preparation**
-
-### Important Fields
-
-- Application Date
-- Application Year
-- Loan Amount
-- Loan Duration
-- Interest Rate
-- Loan Purpose
-- Loan Approved
-- Monthly Income
-- Credit Score
-- Risk Score
-- Employment Status
-- Marital Status
-- Debt-related attributes
-- Other customer and financial attributes
+- Approximately **20,000 loan applications**
+- **40+ analytical attributes** after data preparation
+- Customer financial information
+- Credit and risk information
+- Loan amount and duration
+- Interest rate
+- Employment status
+- Loan purpose
+- Application date
+- Loan approval status
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Tool | Purpose |
-|---|---|
-| Python | Data cleaning, validation and analysis |
-| Pandas | Data manipulation |
-| MySQL | Data storage and SQL analysis |
-| Power BI | Interactive dashboard development |
-| DAX | KPI and analytical measures |
-| Excel/CSV | Dataset handling |
+- **Python** — Data cleaning, validation, EDA and risk analysis
+- **Pandas** — Data manipulation and preprocessing
+- **MySQL** — SQL-based analysis and data management
+- **Power BI** — Interactive dashboard and visualization
+- **DAX** — KPI calculations and business metrics
+- **Excel / CSV** — Source data
 
 ---
 
 ## 🔄 Project Workflow
 
-text
+```text
 Raw Loan Data
+      ↓
+Data Audit
       ↓
 Data Cleaning
       ↓
@@ -93,222 +58,200 @@ Data Validation
       ↓
 Exploratory Data Analysis
       ↓
-Risk & Business Analysis
+Risk Analysis
       ↓
 MySQL Analysis
       ↓
-Power BI Data Model
+Power BI Data Modeling
       ↓
-DAX Measures
+DAX KPI Development
       ↓
-Interactive Dashboard
+Interactive 7-Page Dashboard
       ↓
 Business Insights
+```
 
-📊 Power BI Dashboard
+---
 
-LoanGuard contains 7 interactive dashboard pages.
+# 📈 Dashboard Pages
 
-1️⃣ Executive Overview
+## 1. Executive Overview
 
-Provides a high-level overview of the loan portfolio and application performance.
+Provides a high-level view of the banking loan portfolio.
 
-Key KPIs
-Total Applications
-Loan Approval Rate
-Total Loan Amount
-Average Loan Amount
-Average Credit Score
-Average Risk Score
-Analysis
-Applications by Loan Purpose
-Overall portfolio performance
-Approval performance
-Customer credit and risk overview
+### Key KPIs
 
-2️⃣ Customer Analytics
+- **Total Applications:** 20K
+- **Loan Approval Rate:** 24%
+- **Total Loan Amount:** 497.66M
+- **Average Loan Amount:** 24.88K
+- **Average Credit Score:** 571.61
+- **Average Risk Score:** 50.77
 
-Analyzes customer characteristics and financial profiles.
+Includes loan-purpose analysis and overall portfolio performance.
 
-Key Analysis
-Employment Status Distribution
-Monthly Income vs Credit Score
-Customer financial characteristics
-Loan Purpose distribution
-Customer risk indicators
+---
 
-This page helps understand how customer characteristics relate to lending behavior.
+## 2. Customer Analytics
 
-3️⃣ Loan Analysis
+Analyzes customer financial and employment characteristics.
 
-Focuses on loan characteristics and portfolio metrics.
+### Analysis Includes
 
-Key KPIs
-Total Loan Amount
-Average Loan Amount
-Average Interest Rate
-Approved Loan Amount
-Analysis
-Average Loan Amount by Loan Duration
-Loan portfolio characteristics
-Interest rate behavior
-Approved loan value
+- Employment status distribution
+- Customer income analysis
+- Credit score analysis
+- Risk score analysis
+- Loan purpose distribution
+- Relationship between income and credit score
 
-4️⃣ Risk Analysis
+---
 
-Provides a detailed view of credit risk and loan approval patterns.
+## 3. Loan Analysis
 
-Key KPIs
-Average Risk Score
-Average Credit Score
-Loan Approval Rate
-Analysis
-Risk Score Distribution
-Risk Score vs Loan Amount
-Loan Approval Rate by Risk Level
-Risk patterns by Loan Purpose
+Focuses on loan portfolio characteristics and lending patterns.
 
-This page helps identify relationships between customer risk, loan size, and approval behavior.
+### Analysis Includes
 
-5️⃣ Business Insights
+- Total loan amount
+- Average loan amount
+- Average interest rate
+- Approved loan amount
+- Average loan amount by loan duration
 
-Provides portfolio-level business insights.
+---
 
-Analysis
-Loan Portfolio by Purpose
-Loan Amount by Employment Status & Purpose
-Loan Portfolio Contribution by Purpose
-Application Trends by Loan Purpose
+## 4. Risk Analysis
 
-This page helps identify major loan segments and portfolio concentration.
+Analyzes credit and lending risk patterns.
 
-6️⃣ Time Trends
+### Analysis Includes
+
+- Risk score distribution
+- Risk score vs loan amount
+- Loan approval rate by risk level
+- Loan approval performance over time
+- Credit and risk profile analysis
+
+---
+
+## 5. Business Insights
+
+Provides business-oriented portfolio and lending insights.
+
+### Analysis Includes
+
+- Loan portfolio by purpose
+- Loan amount by employment status
+- Loan purpose contribution
+- Application trends by loan purpose
+
+---
+
+## 6. Time Trends
 
 Analyzes how loan activity changes over time.
 
-Analysis
-Loan Application Trend Over Time
-Total Loan Amount Trend Over Time
-Average Interest Rate Trend
-Loan Approval Rate Trend
+### Analysis Includes
 
-The page helps identify changes in lending activity, loan values, and interest rates across application years.
+- Loan application trend
+- Total loan amount trend
+- Average interest rate trend
+- Approval performance trends
 
-7️⃣ Data Quality
+---
 
-Validates the completeness of important loan application fields.
+## 7. Data Quality
 
-Data Quality Checks
+Validates the completeness and quality of the analytical dataset.
 
-The dashboard checks missing values in:
+### Data Quality Checks
 
-Loan Amount
-Monthly Income
-Credit Score
-Risk Score
-Interest Rate
-Loan Purpose
-Employment Status
-Loan Duration
-Application Date
-Loan Approval Status
-Result
+- Missing Loan Amount
+- Missing Monthly Income
+- Missing Credit Score
+- Missing Risk Score
+- Missing Interest Rate
+- Missing Loan Purpose
+- Missing Employment Status
+- Missing Loan Duration
+- Missing Application Date
+- Missing Loan Approval Status
 
-The checked fields contain 0 missing values, resulting in:
+### Overall Data Quality
 
-Overall Data Quality: GOOD
+**GOOD**
 
-## 🖼️ Dashboard Preview
+All monitored critical fields contain zero missing values.
 
-### Executive Overview
-<img src="./screenshots/executive-overview.png" width="100%">
+---
 
-### Customer Analytics
-<img src="./screenshots/customer-analytics.png" width="100%">
+# 💡 Key Business Insights
 
-### Loan Analysis
-<img src="./screenshots/loan-analysis.png" width="100%">
+- The overall loan approval rate is approximately **24%**.
+- The analyzed portfolio contains approximately **497.66M** in total loan amount.
+- Credit score and risk score provide important indicators for evaluating loan applications.
+- Loan purpose contributes differently to the overall lending portfolio.
+- Employment status influences the composition of the loan portfolio.
+- Application and loan amount trends provide visibility into changing lending activity.
+- Data quality validation confirms that monitored critical fields contain no missing values.
 
-### Risk Analysis
-<img src="./screenshots/risk-analysis.png" width="100%">
+---
 
-### Business Insights
-<img src="./screenshots/business-insights.png" width="100%">
+# 📐 DAX & KPI Development
 
-### Time Trends
-<img src="./screenshots/time-trends.png" width="100%">
+The Power BI dashboard uses DAX measures for dynamic business calculations including:
 
-### Data Quality
-<img src="./screenshots/data-quality.png" width="100%">
+- Total Applications
+- Loan Approval Rate
+- Total Loan Amount
+- Average Loan Amount
+- Average Credit Score
+- Average Risk Score
+- Average Interest Rate
+- Approved Loan Amount
+- Missing-value validation
+- Data Quality Status
 
-📈 Key Dashboard KPIs
-KPI	Value
-Total Applications	20K
-Total Loan Amount	497.66M
-Average Loan Amount	24.88K
-Average Credit Score	571.61
-Average Risk Score	50.77
-Loan Approval Rate  24% 
+### Example DAX Measure
 
-KPI values are based on the prepared dataset and Power BI calculations.
-
-💡 Key Business Insights
-
-The analysis provides insights into:
-
-Loan application volume across different purposes
-Distribution of customers across employment categories
-Relationship between monthly income and credit score
-Loan portfolio concentration by purpose
-Relationship between risk score and loan amount
-Approval patterns across different risk levels
-Changes in application volume over time
-Changes in loan amount and interest rates over time
-Data completeness across important banking fields
-📐 DAX & KPI Development
-
-Custom DAX measures were created for important business metrics such as:
-
-Total Applications
-Loan Approval Rate
-Total Loan Amount
-Average Loan Amount
-Average Credit Score
-Average Risk Score
-Approved Loan Amount
-Average Interest Rate
-Missing Value Checks
-Overall Data Quality Status
-
-Example:
-
+```DAX
 Approved Loan Amount =
 CALCULATE(
     SUM('LoanGuard loan_applications'[LoanAmount]),
     'LoanGuard loan_applications'[LoanApproved] = 1
 )
-🧹 Data Quality & Validation
+```
 
-The project includes data preparation and validation steps to improve analytical reliability.
+---
 
-Validation Areas
-Missing values
-Data types
-Business-rule validation
-Loan approval values
-Financial field validation
-Risk-related fields
-Date and year fields
+# 🧹 Data Quality & Validation
 
-The Power BI Data Quality page provides an additional validation layer before business insights are presented.
+The project includes a dedicated data validation workflow to ensure analytical reliability.
 
-📁 Project Structure
+### Validation Covers
+
+- Missing values
+- Data types
+- Business rules
+- Loan approval values
+- Financial field validation
+- Credit and risk score validation
+- Date validation
+- Data consistency checks
+
+The final Power BI Data Quality page reports **GOOD** status with zero missing values across the monitored critical fields.
+
+---
+
+# 📁 Project Structure
+
+```text
 LoanGuard-Banking-Risk-Analytics/
 │
 ├── README.md
 │
 ├── data/
-│   └── loan_data.csv
 │
 ├── python/
 │   ├── data_audit.py
@@ -318,10 +261,8 @@ LoanGuard-Banking-Risk-Analytics/
 │   └── risk_analysis.py
 │
 ├── sql/
-│   └── loan_analysis.sql
 │
 ├── powerbi/
-│   └── LoanGuard_Risk_Intelligence.pbix
 │
 └── screenshots/
     ├── executive-overview.png
@@ -331,58 +272,62 @@ LoanGuard-Banking-Risk-Analytics/
     ├── business-insights.png
     ├── time-trends.png
     └── data-quality.png
-🚀 How to Use
-1. Clone the repository
-git clone https://github.com/shivanand-b/LoanGuard-Banking-Risk-Analytics.git
-2. Navigate to the project
-cd LoanGuard-Banking-Risk-Analytics
-3. Explore the Python analysis
+```
 
-Open the files inside the python/ directory.
+---
 
-4. Explore SQL analysis
+# 🖼️ Dashboard Preview
 
-Open the SQL scripts inside the sql/ directory.
+## Executive Overview
 
-5. Open the Power BI Dashboard
+<img src="./screenshots/executive-overview.png" width="100%">
 
-Open:
+## Customer Analytics
 
-powerbi/LoanGuard_Risk_Intelligence.pbix
+<img src="./screenshots/customer-analytics.png" width="100%">
 
-using Microsoft Power BI Desktop.
+## Loan Analysis
 
-🎨 Dashboard Design
+<img src="./screenshots/loan-analysis.png" width="100%">
 
-The dashboard follows a modern banking analytics design with:
+## Risk Analysis
 
-Consistent navigation
-KPI cards
-Interactive Power BI visuals
-Risk-focused analysis
-Consistent color palette
-Rounded visual containers
-Business-oriented page structure
-Data quality monitoring
+<img src="./screenshots/risk-analysis.png" width="100%">
 
-🔮 Future Improvements
+## Business Insights
 
-Potential future enhancements include:
+<img src="./screenshots/business-insights.png" width="100%">
 
-Machine learning based loan default prediction
-Automated credit-risk scoring
-Customer segmentation using clustering
-Loan default probability prediction
-Automated anomaly detection
-Real-time banking data integration
-Automated email alerts for high-risk applications
-Deployment through Power BI Service
+## Time Trends
 
+<img src="./screenshots/time-trends.png" width="100%">
 
-👨‍💻 Author
+## Data Quality
 
-Shivanand Birajdar
+<img src="./screenshots/data-quality.png" width="100%">
 
-Computer Science & Engineering
+---
 
-Interested in Data Analytics, Business Intelligence, Data Science, and Machine Learning.
+# 🚀 Future Improvements
+
+- Automated loan risk scoring
+- Machine learning-based approval prediction
+- Automated anomaly detection
+- Real-time banking risk monitoring
+- Automated email alerts for high-risk applications
+- Advanced customer segmentation
+- Predictive loan default analysis
+
+---
+
+# 👨‍💻 Author
+
+**Shivanand Birajdar**
+
+**Data Analytics | Python | SQL | Power BI | DAX | Machine Learning**
+
+GitHub: [shivanand-b](https://github.com/shivanand-b)
+
+---
+
+⭐ If you find this project useful, consider giving it a star.
