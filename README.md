@@ -221,25 +221,25 @@ Overall Data Quality: GOOD
 ## 🖼️ Dashboard Preview
 
 ### Executive Overview
-![Executive Overview](screenshots/executive-overview.png)
+<img src="./screenshots/executive-overview.png" width="100%">
 
 ### Customer Analytics
-![Customer Analytics](screenshots/customer-analytics.png)
+<img src="./screenshots/customer-analytics.png" width="100%">
 
 ### Loan Analysis
-![Loan Analysis](screenshots/loan-analysis.png)
+<img src="./screenshots/loan-analysis.png" width="100%">
 
 ### Risk Analysis
-![Risk Analysis](screenshots/risk-analysis.png)
+<img src="./screenshots/risk-analysis.png" width="100%">
 
 ### Business Insights
-![Business Insights](screenshots/business-insights.png)
+<img src="./screenshots/business-insights.png" width="100%">
 
 ### Time Trends
-![Time Trends](screenshots/time-trends.png)
+<img src="./screenshots/time-trends.png" width="100%">
 
 ### Data Quality
-![Data Quality](screenshots/data-quality.png)
+<img src="./screenshots/data-quality.png" width="100%">
 
 📈 Key Dashboard KPIs
 KPI	Value
