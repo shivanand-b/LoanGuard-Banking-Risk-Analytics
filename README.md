@@ -84,7 +84,7 @@ The project uses a structured loan application dataset containing customer, fina
 
 ## 🔄 Project Workflow
 
-```text
+text
 Raw Loan Data
       ↓
 Data Cleaning
