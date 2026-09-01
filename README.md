@@ -125,6 +125,7 @@ Applications by Loan Purpose
 Overall portfolio performance
 Approval performance
 Customer credit and risk overview
+
 2️⃣ Customer Analytics
 
 Analyzes customer characteristics and financial profiles.
@@ -152,6 +153,7 @@ Average Loan Amount by Loan Duration
 Loan portfolio characteristics
 Interest rate behavior
 Approved loan value
+
 4️⃣ Risk Analysis
 
 Provides a detailed view of credit risk and loan approval patterns.
@@ -215,6 +217,29 @@ Result
 The checked fields contain 0 missing values, resulting in:
 
 Overall Data Quality: GOOD
+
+## 🖼️ Dashboard Preview
+
+### Executive Overview
+![Executive Overview](screenshots/executive-overview.png)
+
+### Customer Analytics
+![Customer Analytics](screenshots/customer-analytics.png)
+
+### Loan Analysis
+![Loan Analysis](screenshots/loan-analysis.png)
+
+### Risk Analysis
+![Risk Analysis](screenshots/risk-analysis.png)
+
+### Business Insights
+![Business Insights](screenshots/business-insights.png)
+
+### Time Trends
+![Time Trends](screenshots/time-trends.png)
+
+### Data Quality
+![Data Quality](screenshots/data-quality.png)
 
 📈 Key Dashboard KPIs
 KPI	Value
